@@ -1,4 +1,4 @@
-# fNIRS Image Reconstruction and Motion Correction – Texting Task
+# fNIRS Image Reconstruction and Motion Correction
 
 This academic project explores motion correction strategies and image reconstruction techniques for functional Near-Infrared Spectroscopy (fNIRS) data collected during a motor task involving texting with the right or left hand. The analysis focuses on identifying reliable methods for artifact removal and reconstructing hemodynamic responses from DOT (Diffuse Optical Tomography) measurements using MATLAB.
 

@@ -25,8 +25,23 @@ The .jac file used in this study is not included in this repository due to size 
 ```bash
 dot-motion-correction/
 │
+├── MNI/                             # MNI anatomical structures and mesh files
+│   ├── 10-5_Points.txt              # 10-5 positions of the asymmetric MNI152 atlas
+│   ├── GMSurfaceMesh.mat            # Grey matter surface mesh
+│   ├── HeadVolumeMesh.mat           # Head volume surface mesh
+│   ├── LandmarkPoints.txt           # Cranial landmark coordinates
+│   ├── ScalpSurfaceMesh.mat         # Scalp surface mesh
+│   ├── TissueMask.mat
+│   ├── TissueTypes.txt
+│
 ├── main_script.m                    # Main MATLAB script for channel QC and preprocessing
-├── 
+├── S07_texting.nirs                 # NIRS data file of one subject
+├── vol2gm.mat                       # Mapping matrix from volumetric to GM surface mesh
+├── removeNoisyChannels.m            # Custom function to remove bad channels
+├── dodWavelet.mat                   # Output of wavelet motion correction from HOMER
+├── results_HW2_gruppo2.mat          # Final results as required by the assignment
+├── solution_report.pdf              # Final project report with plots and results
+├── assignment.pdf                   # Original assignment instructions
 └── README.md
 ```
 
